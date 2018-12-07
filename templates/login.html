@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>User Profile</title>
+    <meta name="description" content="Project Description">
+    <meta name="author" content="Justine Quiapos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <nav class="topnav">
+            <ul>
+                <li class="home-icon"><a href="../templates/index.htm">Project Name</a></li>
+                <li><a href="../templates/login.html">Log in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <form action="../static/cgi-bin/scripts/login.cgi" style="border:1px solid #ccc">
+        <div id="main">
+                <h1>Log in</h1>
+                <hr>
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+        
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+
+            <a href="../templates/signup.html"><b><u>Click here to signup</u></b></a>
+        </div>
+    
+    </form>
+
+    <footer>
+        
+    </footer>
+</body>
+</html>

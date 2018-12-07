@@ -1,0 +1,354 @@
+body {
+    font-family: 'Montserrat';font-size: 22px;
+    margin: 0;
+    height: 100%;
+    background-color: white;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: #821732; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+p    { text-align: center; }
+sup  { font-size: 36px; font-weight: 100; line-height: 55px; }
+
+
+#footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background: #821732;
+    padding: 0;
+    margin: 0;
+}
+
+#footer h1{
+    margin: 0;
+}
+
+
+/* General Navigation */
+.topnav ul {
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topnav li {
+    float: right;
+}
+
+.topnav a {
+    display: block;
+    color: #821732;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 5px;
+    border-radius: 50px;
+    width: auto;
+    text-decoration: none;
+}
+
+.topnav li.home-icon {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+.topnav li.home-icon a{
+    color: #821732;
+    border-radius: 50px;
+}
+
+
+.topnav li a:hover{
+    color: #821732;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    border-radius: 5%;
+    margin-top: 10px;
+    padding: 0;
+    width: 100%;
+}
+
+
+/* Page Description ( Section before Main) */
+#page-desc {
+    padding: 25px;
+    padding-top: 0;
+    margin: 0;
+    border: 0;
+    width: auto;
+}
+#page-desc h1, h3 {
+    text-align: center;
+}
+
+
+
+/* Main page colour */
+.mainDiv{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.indexArticle{
+    padding-left: 20px;
+    padding-top: 0;
+    float: left;
+}
+
+.indexArticle .indexImg img{
+    border: 1px solid #c7c7c7;
+    border-radius: 5px;
+    box-shadow: 0px 30px 50px -25px rgba(0,0,0,0.2);
+    float: left;
+}
+
+.indexProfile {
+    float: left;
+}
+
+.indexProfile img {
+    float: left;
+    border-radius: 100%;
+    margin-left: 10px; 
+}
+
+.indexDesc{
+    position: relative;
+    margin-top: 20px;
+    float: left;
+}
+
+.author{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.indexSign .container{
+    background-color: #821732;
+    border: 1px solid #821732;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* Footer for index page */
+#ghostFooterbtn{
+    width: auto;
+    bottom: 0;
+    position: fixed;
+}
+
+
+
+/* Sign Up form in index */
+.indexSign .container {
+    float: right;
+    width: 20%;
+    margin-right: 115px;
+    padding: 0;
+    padding-right: 46px;
+    font-size: 1;
+}
+
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+/* full width input fields */
+input[type=text], input[type=password] {
+    width: auto;
+    padding: 10px;
+    margin: 5px 0 15px; 
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+/* Set a style for all buttons */
+button {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+  
+    font-size: 24px;
+    font-weight: 300;
+    
+    margin-top: 10em;
+    padding: 20px;
+  
+    background: #821732;
+    color: #FFF;
+    overflow: hidden;
+    
+
+    transition: all 0.5s;
+}
+.login-btn
+{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+
+  font-size: 24px;
+  font-weight: 300;
+  
+  margin-top: 10em;
+  padding: 20px;
+
+  background: #821732;
+  color: #FFF;
+  overflow: hidden;
+  
+  transition: all 0.5s;
+}
+
+.login-btn:hover, .login-btn:active, button:hover
+{
+  text-decoration: none;
+  color: #821732;
+  border-color: #821732;
+  background: #FFF;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #EBEBEB;
+    color: #821732;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 46px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Discover Page Gallary */
+
+div.gallery-container {
+    width: auto;
+}
+
+div.gallery {
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 15%;
+    padding: 10px;
+}
+
+div.gallery:hover  {
+    border: 1px solid #821732;
+    
+}
+
+div.gallery img   {
+    width: 100%;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* LANDING PAGE */
+#home-container{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+#illustration{
+    float: left;
+    margin-right: 5%;
+}
+
+
+h1{
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: .2em;
+}
+
+p.subtitle{
+    font-size: 1.4em;
+    color: #858585;
+    margin-top: 0;
+}
+
+.cta{
+    background-color: #821732;
+    padding: 1em;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 2em;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/*LOGIN PAGE */
+#login-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
+
+#login-container h1{
+    margin-bottom: 1em;
+}
+
+
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .cancelbtn, .signupbtn .indexArticle img {
+       width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
